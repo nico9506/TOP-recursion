@@ -1,6 +1,4 @@
 const fibonacciPivot = (number) => {
-    let pivot = 0;
-
     const finalArray = [0];
 
     if (number < 0) throw new Error("Input number must be greater than 0");
